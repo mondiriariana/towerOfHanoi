@@ -1,0 +1,118 @@
+
+body{
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  background: linear-gradient(rgba(2,0,36,1) 0%, rgba(68,68,121,0.9066001400560224) 56%);
+  height: 100;
+  
+}
+
+
+.instructions{
+  background-color:bkan;
+}
+
+.text-title {
+    font-weight: 700;
+  }
+  
+  .content {
+    border: 1px solid grey;
+    display: inline-flex;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .column-container {
+    align-items: flex-end;
+    border: 0px solid grey;
+    height: 80vh;
+    position: relative;
+    width: 30%;
+  }
+  .neonText {
+
+    text-align: center;
+    color:black;
+  /*  color: #fff; */
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+  }
+  h1, h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+    
+  h1 {
+      font-size: 2rem;
+  }
+    
+  h2 {
+      font-size: 1.8rem;
+  }
+  
+  .center-bar {
+    background-color: black;
+    width: 4%;
+    height: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    left: 48%;
+    bottom: 0; 
+    z-index: -1;
+  }
+  
+  .tile {
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 27x;
+    height: 35px;
+    margin: auto;
+    z-index: 10;
+  }
+  
+  .win-message {
+    background-color: rgba(74, 21, 21, 0.811);
+    border-radius: 10px;
+    color: #ff0;
+    font-size: 42px;
+    font-weight: 700;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    z-index: 20;
+    padding: 5px;
+  }
+  
+  .win-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  
+  .win-number {
+    color: #2ff;
+  }
+  .win-button {
+    background-color: black; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    border-radius: 5px; /* Border radius */
+    cursor: pointer; /* Cursor style on hover */
+  }
+  
